@@ -8,12 +8,12 @@
   #projects h2{
   color: var(--color3);
   text-decoration: underline;
-  padding-left: 100px;
+  padding-left: 0;
 }
 .project-image{
   width: 600px;
   align-items: center;
-  padding-left: 100px;
+  padding-left: 0;
 }
 }
 :root{
