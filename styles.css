@@ -5,6 +5,16 @@
   #welcome-section h1{
     font-size: 60px;
   }
+  #projects h2{
+  color: var(--color3);
+  text-decoration: underline;
+  padding-left: 100px;
+}
+.project-image{
+  width: 600px;
+  align-items: center;
+  padding-left: 100px;
+}
 }
 :root{
   --color1: #ea9d3e;
