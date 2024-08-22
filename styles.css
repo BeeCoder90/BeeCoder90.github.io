@@ -5,6 +5,11 @@
   #welcome-section h1{
     font-size: 60px;
   }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-betweeen;
+  }
   .project-tile{
     display: flex;
     justify-content: center;
