@@ -5,6 +5,11 @@
   #welcome-section h1{
     font-size: 60px;
   }
+  .project-tile{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   #projects h2{
   color: var(--color3);
   text-decoration: underline;
