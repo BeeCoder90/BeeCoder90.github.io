@@ -12,7 +12,8 @@
 }
 .project-image{
   width: 600px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   padding-left: 0;
 }
 }
