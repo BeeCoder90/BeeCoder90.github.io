@@ -51,6 +51,7 @@ li{
   border: 2px solid transparent;
   border-radius: 25px;
   list-style-type: none;
+  text-decoration: none;
   float: left;
   margin: 0 45px 0 150px;
 }
