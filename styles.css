@@ -37,6 +37,7 @@
   --color5: #312f17;
 }
 html{
+  display: flexbox;
   font-family: Matemasie, Jersey-10;
   font-size: 60px; 
 }
