@@ -48,11 +48,11 @@ header{
   margin-top: -200px;
   position: fixed;
 }
-ul(
+ul{
   display: flex;
   justify-content: space-between;
-)
-ul li a{
+}
+.hlinka{
   background-color: var(--color3);
   color: var(--color5);
   border: 2px solid transparent;
