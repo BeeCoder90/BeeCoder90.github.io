@@ -37,11 +37,12 @@
   --color5: #312f17;
 }
 html{
+  display: flexbox;
   font-family: Matemasie, Jersey-10;
   font-size: 60px; 
 }
 header{
-  background-color: var(--color1);
+  background-color: var(--color5);
   color: var(--color3);
   width: 100%;
   margin-top: -200px;
@@ -51,14 +52,12 @@ ul{
 list-style-type: none;
 text-decoration: none;
 }
-li{
+ul li a{
   background-color: var(--color3);
   border: 2px solid transparent;
   border-radius: 25px;
   list-style-type: none;
-  text-decoration: none;
-  float: left;
-  margin: 0 45px 0 150px;
+  display: flex;
 }
 body{
   margin-top: 200px;
