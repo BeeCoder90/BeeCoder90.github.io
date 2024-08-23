@@ -74,6 +74,10 @@ body{
   font-size: 120px; 
   align-items: center;
 }
+#projects{
+  display: flex;
+  justify-content: center;
+}
 .box{
   display: flex;
   flex-direction: column;
