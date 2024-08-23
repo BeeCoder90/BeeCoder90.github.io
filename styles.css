@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-betweeen;
   }
-  .project-tile{
+  .box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
