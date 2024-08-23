@@ -93,6 +93,7 @@ body{
 #projects h2{
   color: var(--color3);
   text-decoration: underline;
+  display: flex;
   justify-content: center;
 }
 .project-image{
