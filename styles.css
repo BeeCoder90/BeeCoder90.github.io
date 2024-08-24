@@ -71,16 +71,19 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: var(--color5);
 }
 #projects h2{
   color: var(--color3);
   text-decoration: underline;
+  align-items: center;
 }
 .project-image{
   width: 600px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .line{
   border: 2px var(--color1);
