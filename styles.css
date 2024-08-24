@@ -64,6 +64,7 @@ body{
   font-size: 120px; 
   align-items: center;
   margin: 0;
+  padding: 10px 10px;
 }
 @media only screen and (max-width: 600px){
   #welcome-section h1{
@@ -74,11 +75,13 @@ body{
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 10px 10px;
 }
 #welcome-section h3{
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 10px 10px;
 }
 #projects{
   display: flex;
