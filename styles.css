@@ -68,6 +68,7 @@ body{
   justify-content: center;
   align-items: center;
   background-color: var(--color5);
+  margin: auto;
 }
 .box{
   display: flex;
@@ -76,6 +77,7 @@ body{
   justify-content: center;
   align-items: center;
   background-color: var(--color5);
+  margin: auto;
 }
 #projects h2{
   color: var(--color3);
@@ -96,7 +98,6 @@ body{
   width: 90%;
   display: flex;
   justify-content: center;
-  margin: 30px 0 10px 60px;
 }
 .link{
   background-color: var(--color5);
