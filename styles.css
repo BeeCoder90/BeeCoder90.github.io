@@ -129,13 +129,17 @@ footer{
   }
 }
 .img-bottom{
-  width: 400px;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 @media only screen and (max-width: 650px){
-  .img-bottom{
+  justify-content: center;
+}
+.img-bottom2{
+  width: 400px;
+}
+@media only screen and (max-width: 650px){
+  .img-bottom2{
     width: 200px;
 
   }
