@@ -119,6 +119,13 @@ footer{
   background: radial-gradient(var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
   font-size: 30px;
 }
+@media only screen and (max-width: 650px){
+  footer{
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 25px;
+  }
+}
 .img-bottom{
   width: 400px;
   display: flex;
