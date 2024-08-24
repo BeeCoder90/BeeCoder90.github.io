@@ -10,7 +10,7 @@ html{
   font-family: Matemasie, Jersey-10;
   font-size: 60px; 
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   html{
     font-size: 30px;
   }}
@@ -42,7 +42,7 @@ body{
 #welcome-section{
   text-align: center;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
   #welcome-section{
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body{
   align-items: center;
   margin: 0;
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   #welcome-section h1{
     font-size: 60px;
   }
@@ -84,7 +84,7 @@ body{
   background-color: var(--color5);
   margin: auto;
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   #projects h2{
   display: flex;
   flex-wrap: wrap;
@@ -111,7 +111,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   .project-image{
     width: fit-content;
   }
@@ -135,7 +135,7 @@ footer{
   background: radial-gradient(var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
   font-size: 30px;
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   footer{
     display: flex;
     flex-direction: column;
@@ -148,13 +148,13 @@ footer{
   display: flex;
   justify-content: flex-end;
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   justify-content: center;
 }
 .img-bottom2{
   width: 400px;
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
   .img-bottom2{
     width: 200px;
   }
