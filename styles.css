@@ -5,28 +5,15 @@
   #welcome-section h1{
     font-size: 60px;
   }
-  ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-betweeen;
-  }
   .box{
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
   }
   #projects h2{
-  color: var(--color3);
-  text-decoration: underline;
-  padding-left: 0;
   display: flex;
   flex-wrap: wrap;
 }
 .project-image{
   width: 600px;
-  display: flex;
-  justify-content: center;
-  padding-left: 0;
 }
 }
 :root{
