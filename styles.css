@@ -15,6 +15,13 @@
 .project-image{
   width: 600px;
 }
+footer{
+  text-size: 25px;
+  flex-wrap: wrap;
+}
+.img-bottom{
+  width: 200px;
+}
 }
 :root{
   --color1: #ea9d3e;
@@ -111,5 +118,7 @@ footer{
 }
 .img-bottom{
   width: 400px;
-  float: right;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
 }
