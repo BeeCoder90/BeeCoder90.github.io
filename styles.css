@@ -44,7 +44,9 @@ body{
 }
 @media only screen and (max-width: 650px) {
   #welcome-section{
-    width:649px
+    width: 649px
+    text-align: center;
+    flex-wrap: wrap;
   }
 }
 #welcome-section h1{
