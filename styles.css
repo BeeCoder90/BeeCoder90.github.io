@@ -65,6 +65,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: var(--color5);
 }
 .box{
@@ -77,6 +78,7 @@ body{
 #projects h2{
   color: var(--color3);
   text-decoration: underline;
+  justify-content: center;
   align-items: center;
 }
 .project-image{
