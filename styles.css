@@ -44,12 +44,17 @@ body{
 }
 @media only screen and (max-width: 650px) {
   #welcome-section{
-    width: 649px
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    width: 100%;
   }
 }
 #welcome-section h1{
+  display: flex;
+  justify-content: center;
   text-decoration: underline;
   font-size: 120px; 
   align-items: center;
@@ -58,6 +63,14 @@ body{
   #welcome-section h1{
     font-size: 60px;
   }
+}
+#welcome-section h2{
+  display: flex;
+  justify-content: center;
+}
+#welcome-section h3{
+  display: flex;
+  justify-content: center;
 }
 #projects{
   display: flex;
@@ -97,7 +110,7 @@ body{
 }
 @media only screen and (max-width: 650px){
   .project-image{
-    width: 600px;
+    width: 400px;
   }
 }
 .line{
