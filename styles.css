@@ -10,6 +10,7 @@ html{
   font-family: Matemasie, Jersey-10;
   font-size: 60px;
   width: 100%; 
+  margin-left: 0;
 }
 @media only screen and (max-width: 600px){
   html{
@@ -17,6 +18,7 @@ html{
   }}
   body{
     width: 100%;
+    margin-left: 0;
   }
 header{
   background-color: var(--color5);
@@ -123,11 +125,11 @@ body{
 .line{
   border: 2px var(--color1);
   background-color: var(--color1);
-  height: 5px;
+  height: 10px;
   width: 90%;
   display: flex;
   justify-content: center;
-  margin: 20px 0 20px 0;
+  margin: 40px 0 20px 0;
 }
 .link{
   background-color: var(--color5);
