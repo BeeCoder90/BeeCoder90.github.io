@@ -10,7 +10,6 @@ html{
   font-family: Matemasie, Jersey-10;
   font-size: 60px;
   width: 100%; 
-  margin-left: 0;
 }
 @media only screen and (max-width: 600px){
   html{
@@ -31,6 +30,7 @@ ul{
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  margin-left: 0;
 }
 ul li a{
   background-color: var(--color3);
@@ -65,6 +65,7 @@ body{
   font-size: 120px; 
   align-items: center;
   margin: 0;
+  padding: 10px 10px;
 }
 @media only screen and (max-width: 600px){
   #welcome-section h1{
@@ -75,11 +76,13 @@ body{
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 10px 10px;
 }
 #welcome-section h3{
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 10px 10px;
 }
 #projects{
   display: flex;
@@ -116,6 +119,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 @media only screen and (max-width: 600px){
   .project-image{
